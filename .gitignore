@@ -1,0 +1,6 @@
+.env
+/.idea
+.DS_Store
+/app/__pycache__
+src/database/__pycache__
+src/__pycache__
