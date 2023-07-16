@@ -3,6 +3,7 @@ import src.database.config as db_configs
 
 class AppConfigs:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    JSON_SORT_KEYS = False
 
     # default DB
     SQLALCHEMY_DATABASE_URI = db_configs.AppConfig.get_db_uri()
